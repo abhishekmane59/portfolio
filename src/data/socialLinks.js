@@ -1,0 +1,1 @@
+export const socialLinks = { linkedin: 'https://linkedin.com/in/abhishekmane35', github: 'https://github.com/abhishekmane59' }

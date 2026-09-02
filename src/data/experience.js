@@ -1,0 +1,4 @@
+export const experience = {
+  company: 'EagleX InfoSolutions Pvt. Ltd.', role: 'Front-End Developer / IT Intern', startDate: '[START DATE]',
+  responsibilities: ['Develop frontend screens for a co-operative banking application.', 'Use React.js, TypeScript, JavaScript, HTML5 and CSS3.', 'Integrate frontend applications with REST APIs and Swagger contracts.', 'Build reusable React components, TypeScript types and custom hooks.', 'Implement business logic, forms, validations, search, filtering and pagination.', 'Contribute to Client Management, Accounts, Authentication, Dashboard, Fixed Deposit and Loan modules.', 'Work with the development lead and backend team to troubleshoot UI and API issues.'],
+}

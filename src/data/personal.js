@@ -1,0 +1,1 @@
+export const personal = { name: 'Abhishek Mane', location: 'Pune, Maharashtra, India', phone: '+91-7666784322', email: 'abhishekmane280@gmail.com' }

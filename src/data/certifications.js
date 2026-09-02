@@ -1,0 +1,1 @@
+export const certifications = [{ title: 'Master Accredited Systems Engineer - SQL Server', issuer: 'Elevate Labs' }, { title: 'AI Masterclass Certificate', issuer: 'Core2Web' }]
