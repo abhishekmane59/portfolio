@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
 import { ArrowUpRight, Check, Mail, Menu, X } from 'lucide-react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import { initHeroAnimation } from './animations/heroAnimations'
 import { personal } from './data/personal'
@@ -45,7 +45,7 @@ function App() {
         <div className={`nav-links ${menuOpen ? 'is-open' : ''}`}>
           {navItems.map((item) => <a key={item} href={`#${item}`} onClick={() => setMenuOpen(false)}>{item}</a>)}
         </div>
-        <a className="resume-link" href="/assets/resume/Abhishek-Mane-Resume.pdf">Resume <ArrowUpRight size={15} /></a>
+        <a className="resume-link" href="/assets/resume/Abhishek_Resume.pdf">Resume <ArrowUpRight size={15} /></a>
         <button className="menu-toggle" type="button" aria-label={menuOpen ? 'Close menu' : 'Open menu'} onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
       </nav>
       <section className="hero" id="top">
